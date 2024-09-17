@@ -1,0 +1,66 @@
+1. primer ejercicio:
+
+const contador = 1;
+console.log(contador);
+
+if(true){
+  const contador = 5;
+  console.log(contador);
+}
+
+2. segundo ejercicio: 
+const persona = {
+  nombre: "Rodrigo",
+  apellido: "Mejia"
+}
+persona.nombre ="Rodri";
+ 
+console.log(persona.nombre);
+
+
+3. tercer ejercicio
+//Objecto literales y Optional chaining operator
+
+  const frutas = ["pera", "manzana", "sandia"];
+
+  console.log(frutas[2]);
+
+4. cuarto ejercicio
+
+//Objectos literales, no indexados
+  const animal = {
+    color: "naranja",
+    nombre: "Simba",
+    rugiendo: true
+  }
+  
+  console.log("Este leon es de color " + animal.color);
+  console.log( "Y su nombre es: "+ animal.nombre);
+  
+  console.log(animal["rugiendo"]);
+
+5. Quinto ejercicio 
+const tareas = {
+  " pollos de colores y porque su repentina autokill" : {
+    title: "tarea #01"
+    }
+  }
+console.log(tareas["pollos de colores y porque su repentina autokill "].title);
+
+6. Sexte ejercicio
+//Objectos literales, no indexados
+  const animal = {
+    color: "naranja",
+    nombre: "Simba",
+    rugiendo: true,
+      dia:{
+        ok: true,
+      },
+      noche:{
+        ok:false
+      }
+    }
+  }
+  
+  console.log(animal.favoritos.dia.ok);
+  console.log(animal.favoritos?.luna?.ok);
